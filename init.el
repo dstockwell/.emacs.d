@@ -10,22 +10,8 @@
 (setq linum-format "%3d ")
 
 (add-to-list 'load-path "~/.emacs.d/untracked")
-(require 'dart-mode)
-
 (add-to-list 'load-path "~/.emacs.d/skeleton-complete")
 (require 'skeleton-complete)
-(require 'tempo-snippets)
-
-; (add-to-list 'load-path "~/.emacs.d/find-things-fast")
-; (require 'find-things-fast)
-; Show flymake errors for the current line
-(require 'flymake-cursor)
-
-; haskell-mode
-(load "~/.emacs.d/haskell-mode/haskell-site-file")
-(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
-(add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
-(setq haskell-indentation-cycle-warn nil)
 
 ; vim > emacs
 
