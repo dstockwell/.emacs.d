@@ -1,3 +1,27 @@
 [submodule "evil"]
 	path = evil
 	url = git://gitorious.org/evil/evil.git
+[submodule "fill-column-indicator"]
+	path = fill-column-indicator
+	url = https://github.com/emacsmirror/fill-column-indicator.git
+[submodule "emacs-powerline"]
+	path = emacs-powerline
+	url = https://github.com/jonathanchu/emacs-powerline.git
+[submodule "haskell-mode"]
+	path = haskell-mode
+	url = https://github.com/haskell/haskell-mode.git
+[submodule "yasnippet"]
+	path = yasnippet
+	url = https://github.com/capitaomorte/yasnippet
+[submodule "git-gutter"]
+	path = git-gutter
+	url = https://github.com/emacsmirror/git-gutter
+[submodule "emacs-color-theme-solarized"]
+	path = emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized
+[submodule "zenburn-emacs"]
+	path = zenburn-emacs
+	url = https://github.com/bbatsov/zenburn-emacs
+[submodule "skeleton-complete"]
+	path = skeleton-complete
+	url = https://github.com/baohaojun/skeleton-complete
