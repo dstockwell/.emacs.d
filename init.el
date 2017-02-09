@@ -13,6 +13,12 @@
 (add-to-list 'load-path "~/.emacs.d/skeleton-complete")
 (require 'skeleton-complete)
 
+; js
+(add-to-list 'load-path "~/.emacs.d/js2-mode")
+(require 'js2-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+(setq js2-basic-offset 2)
+
 ; vim > emacs
 
 (setq evil-want-C-u-scroll t)

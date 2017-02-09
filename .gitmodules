@@ -25,3 +25,6 @@
 [submodule "skeleton-complete"]
 	path = skeleton-complete
 	url = https://github.com/baohaojun/skeleton-complete
+[submodule "js2-mode"]
+	path = js2-mode
+	url = https://github.com/mooz/js2-mode
