@@ -1,6 +1,6 @@
 [submodule "evil"]
 	path = evil
-	url = git://gitorious.org/evil/evil.git
+	url = git@github.com:emacs-evil/evil.git
 [submodule "fill-column-indicator"]
 	path = fill-column-indicator
 	url = https://github.com/emacsmirror/fill-column-indicator.git
